@@ -42,3 +42,15 @@ Click "Deploy"
 
 #Done
 Done!
+
+#For testing:
+
+curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"abcdef234\", \"price\": 10, \"name\": \"Caneta\"}" https://endpoint.com/items
+
+curl -v https://endpoint.com/items
+
+curl -v https://endpoint.com/items/abcdef234
+
+curl -v -X "DELETE" https://endpoint.com/items/abcdef1234
+
+curl -v https://endpoint.com/items/items
