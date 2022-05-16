@@ -25,4 +25,20 @@ Click "Deploy"
 
 #In API Gateway
   - Create API
-  - Select HTTP 
+  - Select HTTP API
+  - Click "Build"
+    - Define the API Name
+    - N, N, N, Create
+  - Now Define the Routes:
+    - GET
+    - GET {id}
+    - DELETE {id}
+    - PUT
+  - Create the Lambda Integration
+    - In integrations, select Managed Integrations, and click in "Create"
+    - Select "Lambda Function"
+    - Select your Lambda
+    - Now in the Attach Integrations to routes, add each route to the same Lambda Function
+
+#Done
+Done!
